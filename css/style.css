@@ -1,0 +1,251 @@
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url("../fonts/HelveticaNeue.eot");
+  src: url("../fonts/HelveticaNeue.eot") format("embedded-opentype"), url("../fonts/HelveticaNeue.woff2") format("woff2"), url("../fonts/HelveticaNeue.woff") format("woff"), url("../fonts/HelveticaNeue.ttf") format("truetype"), url("../fonts/HelveticaNeue.svg#HelveticaNeue") format("svg"); }
+body {
+  font-family: "HelveticaNeue"; }
+
+.wrapperContainer {
+  background: url("../images/backgroundMain.png") no-repeat;
+  font-family: 'HelveticaNeue';
+  height: auto;
+  min-height: 640px;
+  background-size: cover; }
+  .wrapperContainer .mainContent {
+    padding-top: 20px; }
+    .wrapperContainer .mainContent .leftContent {
+      padding-left: 30px; }
+      .wrapperContainer .mainContent .leftContent h2 img {
+        margin-left: -10px; }
+      .wrapperContainer .mainContent .leftContent h3 {
+        font-family: 'HelveticaNeue';
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #166986;
+        margin-top: 105px;
+        margin-bottom: 16px; }
+        .wrapperContainer .mainContent .leftContent h3 span {
+          font-family: 'HelveticaNeue';
+          font-size: 2.5rem; }
+      .wrapperContainer .mainContent .leftContent h4 {
+        font-family: 'HelveticaNeue';
+        font-size: 1.875rem;
+        font-weight: bold;
+        color: #166986;
+        margin-bottom: 24px; }
+        .wrapperContainer .mainContent .leftContent h4 span {
+          font-family: 'HelveticaNeue';
+          font-size: 1.5rem; }
+      .wrapperContainer .mainContent .leftContent p {
+        font-family: 'HelveticaNeue';
+        color: #103e58;
+        font-size: 18px;
+        line-height: 22px; }
+    .wrapperContainer .mainContent .rightContent form#registerForm {
+      background-color: rgba(255, 255, 255, 0.6);
+      padding: 40px 40px;
+      width: 428px;
+      margin-left: 62px;
+      border-radius: 4px; }
+      .wrapperContainer .mainContent .rightContent form#registerForm h1 {
+        font-family: 'HelveticaNeue';
+        font-size: 36px;
+        color: #383b43;
+        font-weight: bold; }
+      .wrapperContainer .mainContent .rightContent form#registerForm h4 {
+        font-family: 'HelveticaNeue';
+        color: #383b43;
+        font-size: 18px; }
+      .wrapperContainer .mainContent .rightContent form#registerForm input {
+        font-family: 'HelveticaNeue';
+        background: transparent; }
+      .wrapperContainer .mainContent .rightContent form#registerForm p#birthday {
+        margin-top: 2px;
+        font-family: 'HelveticaNeue';
+        font-size: 15px; }
+      .wrapperContainer .mainContent .rightContent form#registerForm .selectDateWrapper {
+        margin-top: -6px; }
+        .wrapperContainer .mainContent .rightContent form#registerForm .selectDateWrapper .datethreeField {
+          appearance: none;
+          -moz-appearance: none;
+          -webkit-appearance: none;
+          border: 1px solid rgba(0, 0, 0, 0.15);
+          border-radius: 6px;
+          display: inline-block;
+          margin: 0;
+          overflow: hidden;
+          padding: 10px 0;
+          vertical-align: middle;
+          font-family: 'HelveticaNeue';
+          color: #464a4c;
+          width: 77px;
+          padding-left: 5px;
+          background: transparent url("../images/select.png") no-repeat scroll 55px 16px; }
+        .wrapperContainer .mainContent .rightContent form#registerForm .selectDateWrapper #selectSecondMonth {
+          margin-left: 7px; }
+        .wrapperContainer .mainContent .rightContent form#registerForm .selectDateWrapper #selectThreeYear {
+          margin-left: 7px; }
+      .wrapperContainer .mainContent .rightContent form#registerForm .form-group .genderWrapper {
+        margin-top: -10px;
+        font-family: 'HelveticaNeue';
+        color: #464a4c; }
+        .wrapperContainer .mainContent .rightContent form#registerForm .form-group .genderWrapper .columnMale {
+          margin-left: -35px; }
+      .wrapperContainer .mainContent .rightContent form#registerForm .form-group .firstName {
+        padding-right: 5px; }
+      .wrapperContainer .mainContent .rightContent form#registerForm .form-group .lastName {
+        padding-left: 5px; }
+      .wrapperContainer .mainContent .rightContent form#registerForm .country select {
+        appearance: none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        border-radius: 6px;
+        display: inline-block;
+        margin: 0;
+        overflow: hidden;
+        padding: 10px 0;
+        vertical-align: middle;
+        font-family: 'HelveticaNeue';
+        color: #464a4c;
+        margin-top: -10px;
+        font-family: 'HelveticaNeue';
+        color: #464a4c;
+        padding-left: 5px;
+        background: url(../images/select.png) no-repeat 226px 14px;
+        width: 100%; }
+      .wrapperContainer .mainContent .rightContent form#registerForm .rulesText {
+        font-family: 'HelveticaNeue';
+        font-size: 14px;
+        color: #464a4c; }
+        .wrapperContainer .mainContent .rightContent form#registerForm .rulesText a {
+          color: #166986; }
+      .wrapperContainer .mainContent .rightContent form#registerForm #createAccount {
+        background: #166986;
+        width: 218px;
+        height: 44px;
+        margin: 0 auto; }
+        .wrapperContainer .mainContent .rightContent form#registerForm #createAccount a {
+          font-family: 'HelveticaNeue';
+          font-size: 18px;
+          width: 218px;
+          height: 44px;
+          display: block;
+          margin: 0 auto;
+          color: #fff;
+          font-weight: bold; }
+    .wrapperContainer .mainContent .rightContent form#loginForm {
+      background-image: url("../images/login/circle.png");
+      background-attachment: initial;
+      background-clip: border-box;
+      background-color: transparent;
+      background-origin: padding-box;
+      background-position: 25px 0;
+      background-repeat: no-repeat;
+      background-size: 97% auto;
+      height: 628px; }
+      .wrapperContainer .mainContent .rightContent form#loginForm #innerForm {
+        padding-top: 120px;
+        margin: 0 auto; }
+        .wrapperContainer .mainContent .rightContent form#loginForm #innerForm .innerSocialLogin {
+          max-width: 300px;
+          margin: 0 auto; }
+          .wrapperContainer .mainContent .rightContent form#loginForm #innerForm .innerSocialLogin .facebookWrapper {
+            padding-right: 0px; }
+          .wrapperContainer .mainContent .rightContent form#loginForm #innerForm .innerSocialLogin .googleWrapper {
+            padding-left: 0px; }
+          .wrapperContainer .mainContent .rightContent form#loginForm #innerForm .innerSocialLogin .btn-facebook {
+            background-color: #3b5998;
+            border-color: #3b5998;
+            color: #fff;
+            height: 40px;
+            width: 142px; }
+            .wrapperContainer .mainContent .rightContent form#loginForm #innerForm .innerSocialLogin .btn-facebook img {
+              margin-left: -10px; }
+          .wrapperContainer .mainContent .rightContent form#loginForm #innerForm .innerSocialLogin .btn-google {
+            background-color: #e04931;
+            border-color: #e04931;
+            color: #fff;
+            height: 40px;
+            width: 142px;
+            padding-left: 10px; }
+            .wrapperContainer .mainContent .rightContent form#loginForm #innerForm .innerSocialLogin .btn-google img {
+              margin-left: -20px;
+              padding-right: 10px; }
+        .wrapperContainer .mainContent .rightContent form#loginForm #innerForm .innerline {
+          max-width: 368px;
+          margin: 0 auto;
+          margin-top: 15px; }
+          .wrapperContainer .mainContent .rightContent form#loginForm #innerForm .innerline .or {
+            font-family: "HelveticaNeue";
+            font-size: 12px;
+            font-weight: bold;
+            margin-left: 4px;
+            margin-top: 7px; }
+        .wrapperContainer .mainContent .rightContent form#loginForm #innerForm .innerUsername {
+          margin-top: 16px;
+          margin-bottom: -6px; }
+          .wrapperContainer .mainContent .rightContent form#loginForm #innerForm .innerUsername input {
+            background: transparent url("../images/login/username.png") no-repeat scroll 4px 4px;
+            font-family: "HelveticaNeue";
+            margin: 0 auto;
+            padding-left: 44px;
+            width: 51%; }
+        .wrapperContainer .mainContent .rightContent form#loginForm #innerForm .innerPassword {
+          margin-bottom: 30px; }
+          .wrapperContainer .mainContent .rightContent form#loginForm #innerForm .innerPassword input {
+            background: transparent url("../images/login/pass.png") no-repeat scroll 12px 10px;
+            font-family: "HelveticaNeue";
+            margin: 0 auto;
+            padding-left: 44px;
+            width: 51%; }
+        .wrapperContainer .mainContent .rightContent form#loginForm #innerForm .innerLoginForgot {
+          margin: 0 auto;
+          max-width: 522px; }
+          .wrapperContainer .mainContent .rightContent form#loginForm #innerForm .innerLoginForgot .loginButton button {
+            background: #166986 none repeat scroll 0 0;
+            color: white;
+            height: 45px;
+            max-width: 157px;
+            width: 157px; }
+          .wrapperContainer .mainContent .rightContent form#loginForm #innerForm .innerLoginForgot .forgotPassword {
+            margin-left: 26px;
+            margin-top: 10px;
+            font-size: 15px;
+            font-family: "HelveticaNeue";
+            color: #2a748f;
+            font-weight: normal; }
+        .wrapperContainer .mainContent .rightContent form#loginForm #innerForm .lineLast {
+          margin: 15px auto 0;
+          max-width: 340px; }
+        .wrapperContainer .mainContent .rightContent form#loginForm #innerForm .innerSignupNow {
+          margin: 0 auto;
+          max-width: 530px; }
+          .wrapperContainer .mainContent .rightContent form#loginForm #innerForm .innerSignupNow .youHaveAccount p {
+            margin-left: 15px;
+            color: #474b51;
+            font-family: "HelveticaNeue"; }
+          .wrapperContainer .mainContent .rightContent form#loginForm #innerForm .innerSignupNow .signUpNow p {
+            font-family: "HelveticaNeue";
+            margin-left: -10px;
+            color: #2a748f; }
+  .wrapperContainer #footer {
+    margin-top: -50px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    padding-top: 20px; }
+    .wrapperContainer #footer p {
+      color: #fff;
+      position: relative;
+      top: 50px;
+      font-size: 12px;
+      font-family: 'HelveticaNeue'; }
+    .wrapperContainer #footer ul {
+      position: relative;
+      right: -550px;
+      list-style: none; }
+      .wrapperContainer #footer ul li {
+        float: left;
+        padding-right: 5px; }
+
+/*# sourceMappingURL=style.css.map */

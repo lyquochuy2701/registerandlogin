@@ -1,0 +1,238 @@
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Register</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+  </head>
+
+  <body>
+  <div class="wrapperContainer">
+    <div class="container-fluid">
+      <!-- Example row of columns -->
+      <div class="row mainContent">
+        <div class="col-sm-12 col-xs-12 col-md-4 leftContent">
+          <h2><a href="#"><img src="images/logo.png" alt="logo"></a></h2>
+          <h3>Bạn thích  <br><span>đi du lịch ?</span></h3> 
+          <h4>Bạn muốn tìm hiểu<br><span>thông tin về những điểm đến?</span></h4>
+          <p>Hãy đăng nhập nhanh chóng chỉ với<br>thao tác nhỏ để trãi nghiệm và cảm nhận<br>các tiện ích tuyệt vời của chúng tôi</p>
+          
+        </div>
+        <div class="col-sm-12 col-xs-12 offset-md-3 col-md-4 rightContent ">
+          <form method="post" action="" id="registerForm">
+            <h1>Create an account</h1>
+            <h4>for free today!</h4>
+
+            <!-- firstname and lastname -->
+            <div class="form-group">
+              <div class="row">
+                <div class="col-md-6 col-sm-12 col-xs-12 firstName">
+                  <input id="firstName" class="form-control" type="text" name="firstName" value="" size="50" placeholder="First Name" />
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12 lastName">
+                  <input id="lastName" type="text" class="form-control" name="lastName" size="50"  placeholder="Last Name" value="">
+                </div>
+              </div>
+            </div><!-- end firstname and lastname -->
+
+            <!-- email  -->
+            <div class="form-group">
+              <input id="email" class="form-control" type="text" name="email" value="" size="50" placeholder="Email Address and Mobile Number" />
+            </div><!-- end email -->
+
+            <!-- pass -->
+            <div class="form-group">
+              <input id="password" class="form-control" type="text" name="password" value="" size="50" placeholder="New Password" />
+            </div><!-- end pass -->
+
+            <!-- date -->
+            <div class="form-group">
+              <div class="row">
+                <div class="col-md-3">
+                  <p id="birthday">Birthday</p>
+                </div>
+                <div class="col-md-9 selectDateWrapper">
+                  <select class="datethreeField" name="daySelect">
+                    <option value="0">Day</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="1">21</option>
+                    <option value="1">22</option>
+                    <option value="1">23</option>
+                    <option value="1">24</option>
+                    <option value="1">25</option>
+                    <option value="1">26</option>
+                    <option value="1">27</option>
+                    <option value="1">28</option>
+                    <option value="1">29</option>
+                    <option value="1">30</option>
+                    <option value="1">31</option>
+                  </select>
+                  <select class="datethreeField" id="selectSecondMonth" name="monthSelect">
+                    <option value="0">Month</option>
+                    <option selected value='1'>Jan</option>
+                    <option value='2'>Feb</option>
+                    <option value='3'>March</option>
+                    <option value='4'>April</option>
+                    <option value='5'>May</option>
+                    <option value='6'>June</option>
+                    <option value='7'>July</option>
+                    <option value='8'>August</option>
+                    <option value='9'>Sep</option>
+                    <option value='10'>Oct</option>
+                    <option value='11'>Nov</option>
+                    <option value='12'>Dec</option>
+                  </select>
+                  <select class="datethreeField" id="selectThreeYear" name="yearSelect">
+                    <option value="0">Year</option>
+                    <option value="2017">2017</option>
+                    <option value="2016">2016</option>
+                    <option value="2015">2015</option>
+                    <option value="2014">2014</option>
+                    <option value="2013">2013</option>
+                    <option value="2012">2012</option>
+                    <option value="2011">2011</option>
+                    <option value="2010">2010</option>
+                    
+                  </select>
+                </div>
+              </div>
+            </div><!-- end date -->
+
+            <!-- gender -->
+            <div class="form-group">
+              <div class="row genderWrapper">
+                <div class="col-md-4">
+                  <input class="gender" type="radio" name="gender" value="Female"> 
+                  <label class="radio-inline">Female</label>
+                </div>
+                <div class="col-md-3 columnMale">
+                  <input class="gender" type="radio" name="gender" value="Male"> 
+                  <label class="radio-inline">Male</label>
+                </div>
+              </div>
+            </div><!-- end gender -->
+
+            <!-- country -->
+            <div class="form-group country">
+              <div class="row">
+                <div class="col-md-3"><p id="country">Country</p></div>
+                <div class="col-md-9">
+                  <select class="country" name="country">
+                    <option value="BG">Bulgaria</option>
+                    <option value="BF">Burkina Faso</option>
+                    <option value="BI">Burundi</option>
+                    <option value="KH">Cambodia</option>
+                    <option value="CM">Cameroon</option>
+                    <option value="CA">Canada</option>
+                    <option value="CV">Cape Verde</option>
+                    <option value="KY">Cayman Islands</option>
+                    <option value="TD">Chad</option>
+                    <option value="CL">Chile</option>
+                    <option value="CN">China</option>
+                    <option value="CX">Christmas Island</option>
+                    <option value="CO">Colombia</option>
+                    <option value="KM">Comoros</option>
+                    <option value="CG">Congo</option>
+                    <option value="CK">Cook Islands</option>
+                    <option value="CR">Costa Rica</option>
+                    <option value="CI">Côte d'Ivoire</option>
+                    <option value="HR">Croatia</option>
+                    <option value="CU">Cuba</option>
+                    <option value="CW">Curaçao</option>
+                    <option value="CY">Cyprus</option>
+                    <option value="CZ">Czech Republic</option>
+                    <option value="DK">Denmark</option>
+                    <option value="DJ">Djibouti</option>
+                    <option value="DM">Dominica</option>
+                    <option value="DO">Dominican Republic</option>
+                    <option value="EC">Ecuador</option>
+                    <option value="EG">Egypt</option>
+                    <option value="SV">El Salvador</option>
+                    <option value="GQ">Equatorial Guinea</option>
+                    <option value="ER">Eritrea</option>
+                    <option value="EE">Estonia</option>
+                    <option value="ET">Ethiopia</option>
+                    <option value="FO">Faroe Islands</option>
+                    <option value="FJ">Fiji</option>
+                    <option value="FI">Finland</option>
+                    <option value="FR">France</option>
+                    <option value="GF">French Guiana</option>
+                    <option value="PF">French Polynesia</option>
+                    <option value="GA">Gabon</option>
+                    <option value="GM">Gambia</option>
+                    <option value="GE">Georgia</option>
+                    <option value="DE">Germany</option>
+                    <option value="GH">Ghana</option>
+                  </select>
+              </div>
+              </div>
+            </div><!-- end country -->   
+
+            <!-- rules -->
+            <p class="rulesText">By registering you confirm that you accept the <a href="#">Terms and Conditions </a> and <a href="#"> Privacy Policy </a></p>
+            <p id="createAccount"><a class="btn" href="#" role="button">Create account</a></p>
+          </form>
+          
+       </div>
+        
+      </div>
+
+      <footer id="footer">
+
+        <div class="col-md-3">
+          <p>&copy; 2017 Hahalolo.All rights reserved</p>
+        </div>
+        <div class="offset-md-5 col-md-4">
+          <ul>
+            <li><a href="#"><img src="images/facebook-icon.png" alt="facebook"></a></li>
+            <li><a href="#"><img src="images/google-icon.png" alt="google"></a></li>
+            <li><a href="#"><img src="images/twitter.png" alt="twitter"></a></li>
+            <li><a href="#"><img src="images/youtube.png" alt="youtube"></a></li>
+            <li><a href="#"><img src="images/instagram.png" alt="instagram"></a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('&lt;script src="assets/js/vendor/jquery.min.js"&gt;&lt;\/script&gt;')</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+  
+
+</body></html>

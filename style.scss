@@ -1,0 +1,321 @@
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../fonts/HelveticaNeue.eot');
+    src: url('../fonts/HelveticaNeue.eot') format('embedded-opentype'),
+         url('../fonts/HelveticaNeue.woff2') format('woff2'),
+         url('../fonts/HelveticaNeue.woff') format('woff'),
+         url('../fonts/HelveticaNeue.ttf') format('truetype'),
+         url('../fonts/HelveticaNeue.svg#HelveticaNeue') format('svg');
+}
+
+@mixin titleLeft($fontSize){
+	font-family: 'HelveticaNeue';
+	font-size: $fontSize;
+	font-weight: bold;
+	color:#166986;
+}
+@mixin transparentInput{
+    appearance:none; -moz-appearance:none; -webkit-appearance: none;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    display: inline-block;
+    margin: 0;
+    overflow: hidden;
+    padding: 10px 0;
+    vertical-align: middle;
+    font-family: 'HelveticaNeue';
+    color: #464a4c;
+    
+}
+@mixin backgroundInput($background){
+	background: $background;
+    font-family: "HelveticaNeue";
+    margin: 0 auto;
+    padding-left: 44px;
+    width: 51%;
+}
+body{
+	font-family: "HelveticaNeue";
+}
+.wrapperContainer{
+	background:url("../images/backgroundMain.png") no-repeat;
+	font-family: 'HelveticaNeue';
+	height:auto;
+	min-height:640px;
+	background-size:cover;
+	.mainContent
+	{
+		padding-top: 20px;
+		.leftContent
+		{
+			padding-left: 30px;
+			h2 img{
+				margin-left: -10px;
+			}
+			h3
+			{
+				@include titleLeft(1.5rem);
+				span{
+					font-family: 'HelveticaNeue';
+					font-size: 2.5rem;
+				}
+				margin-top: 105px;
+				margin-bottom: 16px;
+			}
+			h4
+			{
+				@include titleLeft(1.875rem);
+				span{
+					font-family: 'HelveticaNeue';
+					font-size: 1.5rem;
+				}
+				margin-bottom: 24px;
+			}
+			p{
+				font-family: 'HelveticaNeue';
+				color:#103e58;
+				font-size: 18px;
+				line-height: 22px;
+			}
+			
+		}
+		.rightContent{
+			form#registerForm{
+				h1{
+					font-family: 'HelveticaNeue';
+					font-size: 36px;
+					color:#383b43;
+					font-weight: bold;
+				}
+				h4{
+					font-family: 'HelveticaNeue';
+					color:#383b43;
+					font-size: 18px;
+				}
+				background-color: rgba(255, 255, 255, 0.6);
+				padding: 40px 40px;
+				width: 428px;
+				margin-left: 62px;
+				border-radius: 4px;
+				input{
+					// opacity: 0.5;
+					font-family: 'HelveticaNeue';
+					background:transparent;
+				}
+				p#birthday{
+					margin-top: 2px;
+					font-family: 'HelveticaNeue';
+					font-size: 15px;
+				}
+				.selectDateWrapper{
+					margin-top: -6px;
+					.datethreeField {
+					    @include transparentInput;
+					    width: 77px;
+					    padding-left:5px;
+					    background: rgba(0, 0, 0, 0) url("../images/select.png") no-repeat scroll 55px 16px;
+					}
+					#selectSecondMonth{
+						margin-left: 7px;
+					}
+					#selectThreeYear{
+						margin-left: 7px;
+					}
+				}
+				.form-group{
+					.genderWrapper{
+						margin-top: -10px;
+						font-family: 'HelveticaNeue';
+						color: #464a4c;
+						.columnMale{
+							margin-left: -35px;
+						}
+					}
+					.firstName{
+						padding-right:5px;
+					}
+					.lastName{
+						padding-left:5px;
+					}
+				}
+				.country{
+					select{
+						@include transparentInput;
+						margin-top:-10px;
+						font-family: 'HelveticaNeue';
+						color: #464a4c;
+						padding-left:5px;
+					    background:url(../images/select.png) no-repeat 226px 14px;
+					    width: 100%;
+					}
+				}
+				.rulesText{
+					font-family: 'HelveticaNeue';
+					font-size: 14px;
+					color: #464a4c;
+					a{
+						color:#166986;
+					}
+				}
+				#createAccount{
+					background:#166986;
+					width: 218px;
+					height: 44px;
+					margin:0 auto;
+					a{
+						font-family: 'HelveticaNeue';
+						font-size: 18px;
+						width: 218px;
+						height: 44px;
+						display: block;
+						margin:0 auto;
+						color:#fff;
+						font-weight: bold;
+					}
+				}
+			}
+			form#loginForm{
+				background-image:url("../images/login/circle.png");
+				background-attachment: initial;
+			    background-clip: border-box;
+			    background-color: transparent;
+			    background-origin: padding-box;
+			    background-position: 25px 0;
+			    background-repeat: no-repeat;
+			    background-size: 97% auto;
+			    height: 628px;
+			    #innerForm{
+			    	padding-top:120px;
+			    	margin:0 auto;
+			    	.innerSocialLogin{
+			    		max-width: 300px;
+			    		margin:0 auto;
+			    		.facebookWrapper{
+			    			padding-right:0px;
+			    		}
+			    		.googleWrapper{
+			    			padding-left:0px;
+			    		}
+			    		.btn-facebook {
+						    background-color: #3b5998;
+						    border-color: #3b5998;
+						    color: #fff;
+						    height: 40px;
+						    width: 142px;
+						    img{
+						    	margin-left: -10px;
+						    }
+						}
+						.btn-google{
+							background-color: #e04931;
+						    border-color: #e04931;
+						    color: #fff;
+						    height: 40px;
+						    width: 142px;
+						    padding-left:10px;
+						    img{
+						    	margin-left: -20px;
+    							padding-right: 10px;
+						    }
+						}
+			    	}
+			    	.innerline{
+			    		max-width: 368px;
+			    		margin:0 auto;
+			    		margin-top:15px;
+			    		.or{
+			    			font-family: "HelveticaNeue";
+						    font-size: 12px;
+						    font-weight: bold;
+						    margin-left: 4px;
+						    margin-top: 7px;
+			    		}
+			    	}
+			    	.innerUsername{
+			    		input{
+						    @include backgroundInput(rgba(0, 0, 0, 0) url("../images/login/username.png") no-repeat scroll 4px 4px);
+			    		}
+			    		margin-top:16px;
+			    		margin-bottom: -6px;
+			    	}
+			    	.innerPassword{
+			    		input{
+			    			@include backgroundInput(rgba(0, 0, 0, 0) url("../images/login/pass.png") no-repeat scroll 12px 10px);
+			    		}
+			    		margin-bottom: 30px;
+			    	}
+			    	.innerLoginForgot{
+			    		margin: 0 auto;
+    					max-width: 522px;
+    					.loginButton{
+    						button{
+    							background: #166986 none repeat scroll 0 0;
+							    color: white;
+							    height: 45px;
+							    max-width: 157px;
+							    width: 157px;
+    						}
+    					}
+    					.forgotPassword{
+    						margin-left: 26px;
+    						margin-top: 10px;
+    						font-size:15px;
+    						font-family: "HelveticaNeue";
+    						color:#2a748f;
+    						font-weight: normal;
+    					}
+			    	}
+			    	.lineLast{
+			    		margin:15px auto 0;
+    					max-width: 340px;
+			    	}
+			    	.innerSignupNow{
+			    		margin: 0 auto;
+    					max-width: 530px;
+    					.youHaveAccount{
+    						p{
+    							margin-left: 15px;
+    							color:#474b51;
+    							font-family: "HelveticaNeue";
+    						}
+    					}
+    					.signUpNow{
+    						p{
+    							font-family: "HelveticaNeue";
+    							margin-left: -10px;
+    							color:#2a748f;
+    						}
+    					}
+			    	}
+			    }
+			}
+		}
+	}
+	
+	// footer
+	#footer{
+		margin-top: -50px;
+	    overflow: hidden;
+	    padding-bottom: 20px;
+	    padding-top: 20px;
+	    p{
+	    	color: #fff;
+    		position: relative;
+    		top: 50px;
+    		font-size: 12px;
+    		font-family: 'HelveticaNeue';
+	    }
+		ul{
+			position:relative;
+			right: -550px;
+			list-style: none;
+			li{
+				float: left;
+				padding-right:5px;
+			}
+		}
+	}
+	
+}
+
+

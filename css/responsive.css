@@ -1,0 +1,838 @@
+@media only screen and (min-width: 1225px) and (max-width: 1270px) {
+  form {
+    margin-left: 0px !important; }
+
+  ul {
+    right: -423px !important; }
+
+  form#loginForm .innerline {
+    max-width: 362px !important; }
+  form#loginForm .innerLoginForgot {
+    max-width: 487px !important; }
+    form#loginForm .innerLoginForgot .forgotPassword {
+      margin-left: 18px; }
+  form#loginForm .lineLast {
+    max-width: 314px !important; }
+  form#loginForm .innerSignupNow {
+    margin: -25px auto 0 !important; } }
+@media only screen and (min-width: 1151px) and (max-width: 1224px) {
+  form {
+    margin-left: -62px !important; }
+
+  ul {
+    right: -350px !important; }
+
+  form#loginForm .innerline {
+    max-width: 362px !important; }
+  form#loginForm .innerLoginForgot {
+    max-width: 487px !important; }
+    form#loginForm .innerLoginForgot .forgotPassword {
+      margin-left: 18px; }
+  form#loginForm .lineLast {
+    max-width: 314px !important; }
+  form#loginForm .innerSignupNow {
+    margin: -25px auto 0 !important; } }
+@media only screen and (min-width: 1101px) and (max-width: 1150px) {
+  form {
+    margin-left: -62px !important; }
+
+  ul {
+    right: -350px !important; }
+
+  form#loginForm .innerline {
+    max-width: 350px !important; }
+  form#loginForm .innerLoginForgot {
+    max-width: 488px !important; }
+    form#loginForm .innerLoginForgot .forgotPassword {
+      margin-left: 16px !important; }
+  form#loginForm .innerSignupNow {
+    margin: -24px auto 0 !important; } }
+@media only screen and (min-width: 1025px) and (max-width: 1100px) {
+  form {
+    margin-left: -62px !important; }
+
+  ul {
+    right: -350px !important; }
+
+  form#loginForm .innerline {
+    max-width: 336px !important; }
+  form#loginForm .lineLast {
+    display: none; }
+  form#loginForm .innerLoginForgot {
+    max-width: 460px !important;
+    margin-top: -10px !important; }
+    form#loginForm .innerLoginForgot .forgotPassword {
+      margin-left: 14px !important; }
+  form#loginForm .innerSignupNow {
+    margin: -5px auto 0 !important;
+    max-width: 520px !important; } }
+@media only screen and (min-width: 993px) and (max-width: 1024px) {
+  form {
+    margin-left: -62px !important; }
+
+  ul {
+    right: -300px !important; }
+
+  form#loginForm .innerline {
+    max-width: 320px !important; }
+  form#loginForm .lineLast {
+    display: none; }
+  form#loginForm .innerUsername {
+    margin-top: 0px !important; }
+  form#loginForm .innerLoginForgot {
+    max-width: 460px !important;
+    margin-top: -10px !important; }
+    form#loginForm .innerLoginForgot .forgotPassword {
+      margin-left: 14px !important; }
+  form#loginForm .innerSignupNow {
+    margin: -10px auto 0 !important;
+    max-width: 520px !important; } }
+@media only screen and (min-width: 970px) and (max-width: 992px) {
+  form {
+    margin-left: -62px !important; }
+
+  ul {
+    right: -300px !important; }
+
+  .loginWrapperForMobile .leftContent {
+    display: none; }
+  .loginWrapperForMobile .rightContent #logoForMobile {
+    display: block !important;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 180px; }
+  .loginWrapperForMobile .rightContent form#loginForm {
+    background-color: rgba(255, 255, 255, 0.6) !important;
+    margin-left: 62px !important;
+    padding: 20px !important;
+    width: 700px !important;
+    background-image: none !important;
+    height: auto !important;
+    margin-left: -30px !important;
+    margin-top: 20px; }
+    .loginWrapperForMobile .rightContent form#loginForm #innerForm {
+      padding-top: 20px !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerUsername input {
+        width: 70% !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerPassword input {
+        width: 70% !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .lineLast {
+        max-width: 480px !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerSignupNow {
+        max-width: 600px !important; } }
+@media only screen and (min-width: 900px) and (max-width: 969px) {
+  form {
+    margin-left: -92px !important; }
+
+  ul {
+    right: -260px !important; }
+
+  .loginWrapperForMobile .leftContent {
+    display: none; }
+  .loginWrapperForMobile .rightContent #logoForMobile {
+    display: block !important;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 180px; }
+  .loginWrapperForMobile .rightContent form#loginForm {
+    background-color: rgba(255, 255, 255, 0.6) !important;
+    margin-left: 62px !important;
+    padding: 20px !important;
+    width: 700px !important;
+    background-image: none !important;
+    height: auto !important;
+    margin-left: -50px !important;
+    margin-top: 20px; }
+    .loginWrapperForMobile .rightContent form#loginForm #innerForm {
+      padding-top: 20px !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerUsername input {
+        width: 70% !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerPassword input {
+        width: 70% !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .lineLast {
+        max-width: 480px !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerSignupNow {
+        max-width: 600px !important; } }
+@media only screen and (min-width: 850px) and (max-width: 899px) {
+  .leftContent h4 {
+    font-size: 1.5rem !important; }
+
+  form {
+    margin-left: -122px !important; }
+
+  ul {
+    right: -220px !important; }
+
+  .loginWrapperForMobile .leftContent {
+    display: none; }
+  .loginWrapperForMobile .rightContent #logoForMobile {
+    display: block !important;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 160px; }
+  .loginWrapperForMobile .rightContent form#loginForm {
+    background-color: rgba(255, 255, 255, 0.6) !important;
+    margin-left: 62px !important;
+    padding: 20px !important;
+    width: 700px !important;
+    background-image: none !important;
+    height: auto !important;
+    margin-left: -90px !important;
+    margin-top: 20px; }
+    .loginWrapperForMobile .rightContent form#loginForm #innerForm {
+      padding-top: 20px !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerUsername input {
+        width: 70% !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerPassword input {
+        width: 70% !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .lineLast {
+        max-width: 480px !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerSignupNow {
+        max-width: 600px !important; } }
+@media only screen and (min-width: 800px) and (max-width: 849px) {
+  .leftContent h4 {
+    font-size: 1.5rem !important; }
+
+  form {
+    margin-left: -142px !important; }
+
+  ul {
+    right: -180px !important; }
+
+  .loginWrapperForMobile .leftContent {
+    display: none; }
+  .loginWrapperForMobile .rightContent #logoForMobile {
+    display: block !important;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 160px; }
+  .loginWrapperForMobile .rightContent form#loginForm {
+    background-color: rgba(255, 255, 255, 0.6) !important;
+    margin-left: 62px !important;
+    padding: 20px 20px 60px 20px !important;
+    width: 640px !important;
+    background-image: none !important;
+    height: auto !important;
+    margin-left: -70px !important;
+    margin-top: 20px; }
+    .loginWrapperForMobile .rightContent form#loginForm #innerForm {
+      padding-top: 20px !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerUsername input {
+        width: 70% !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerPassword input {
+        width: 70% !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .lineLast {
+        max-width: 440px !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerSignupNow {
+        max-width: 600px !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerline {
+        max-width: 468px !important; }
+        .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerline .or {
+          margin-left: 8px !important; } }
+@media only screen and (min-width: 767px) and (max-width: 799px) {
+  .leftContent h3 span {
+    font-size: 2rem !important; }
+  .leftContent h4 {
+    font-size: 1.5rem !important; }
+
+  form {
+    margin-left: -162px !important; }
+
+  ul {
+    right: -160px !important; }
+
+  .loginWrapperForMobile .leftContent {
+    display: none; }
+  .loginWrapperForMobile .rightContent #logoForMobile {
+    display: block !important;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 150px; }
+  .loginWrapperForMobile .rightContent form#loginForm {
+    background-color: rgba(255, 255, 255, 0.6) !important;
+    margin-left: 62px !important;
+    padding: 20px 0px 60px 0px !important;
+    width: 620px !important;
+    background-image: none !important;
+    height: auto !important;
+    margin-left: -70px !important;
+    margin-top: 20px; }
+    .loginWrapperForMobile .rightContent form#loginForm #innerForm {
+      padding-top: 20px !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerUsername input {
+        width: 70% !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerPassword input {
+        width: 70% !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .lineLast {
+        max-width: 440px !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerSignupNow {
+        max-width: 600px !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerline {
+        max-width: 468px !important; }
+        .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerline .or {
+          margin-left: 8px !important; } }
+@media only screen and (min-width: 717px) and (max-width: 766px) {
+  .wrapperContainer .leftContent {
+    max-width: 700px;
+    margin: 0 auto;
+    padding-left: 0px !important;
+    text-align: center; }
+    .wrapperContainer .leftContent h3 {
+      margin-top: 20px !important; }
+      .wrapperContainer .leftContent h3 span {
+        font-size: 2rem !important; }
+  .wrapperContainer .rightContent form {
+    width: 528px;
+    margin: 0 auto !important;
+    margin-bottom: 50px !important; }
+    .wrapperContainer .rightContent form .columnMale {
+      margin-left: 0px !important; }
+    .wrapperContainer .rightContent form .form-group .firstName {
+      margin-bottom: 15px; }
+    .wrapperContainer .rightContent form .form-group .firstName {
+      padding-right: 15px !important; }
+    .wrapperContainer .rightContent form .form-group .lastName {
+      padding-left: 15px !important; }
+  .wrapperContainer #footer ul {
+    right: -340px !important; }
+  .wrapperContainer #footer p {
+    top: 34px !important;
+    left: 43px; }
+
+  .loginWrapperForMobile .leftContent {
+    display: none; }
+  .loginWrapperForMobile .rightContent #logoForMobile {
+    display: block !important;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 20px; }
+  .loginWrapperForMobile .rightContent form#loginForm {
+    background-color: rgba(255, 255, 255, 0.6) !important;
+    margin-left: 62px !important;
+    padding: 20px 0px 60px 0px !important;
+    width: 560px !important;
+    background-image: none !important;
+    height: auto !important;
+    margin-left: 70px !important;
+    margin-top: 20px !important; }
+    .loginWrapperForMobile .rightContent form#loginForm #innerForm {
+      padding-top: 20px !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerUsername input {
+        width: 80% !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerPassword input {
+        width: 80% !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .lineLast {
+        max-width: 462px !important; } }
+@media only screen and (min-width: 667px) and (max-width: 716px) {
+  .wrapperContainer .leftContent {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-left: 0px !important;
+    text-align: center; }
+    .wrapperContainer .leftContent h3 {
+      margin-top: 20px !important; }
+      .wrapperContainer .leftContent h3 span {
+        font-size: 2rem !important; }
+  .wrapperContainer .rightContent form {
+    width: 490px;
+    margin: 0 auto !important;
+    margin-bottom: 50px !important; }
+    .wrapperContainer .rightContent form .columnMale {
+      margin-left: 0px !important; }
+    .wrapperContainer .rightContent form .form-group .firstName {
+      margin-bottom: 15px; }
+    .wrapperContainer .rightContent form .form-group .firstName {
+      padding-right: 15px !important; }
+    .wrapperContainer .rightContent form .form-group .lastName {
+      padding-left: 15px !important; }
+  .wrapperContainer #footer ul {
+    right: -340px !important; }
+  .wrapperContainer #footer p {
+    top: 34px !important;
+    left: 43px; }
+
+  .loginWrapperForMobile .leftContent {
+    display: none; }
+  .loginWrapperForMobile .rightContent #logoForMobile {
+    display: block !important;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 0px; }
+  .loginWrapperForMobile .rightContent form#loginForm {
+    background-color: rgba(255, 255, 255, 0.6) !important;
+    margin-left: 62px !important;
+    padding: 20px 0px 60px 0px !important;
+    width: 560px !important;
+    background-image: none !important;
+    height: auto !important;
+    margin-left: 40px !important;
+    margin-top: 20px !important; }
+    .loginWrapperForMobile .rightContent form#loginForm #innerForm {
+      padding-top: 20px !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerUsername input {
+        width: 80% !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerPassword input {
+        width: 80% !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .lineLast {
+        max-width: 462px !important; } }
+@media only screen and (min-width: 602px) and (max-width: 666px) {
+  .wrapperContainer .leftContent {
+    max-width: 550px;
+    margin: 0 auto;
+    padding-left: 0px !important;
+    text-align: center; }
+    .wrapperContainer .leftContent h3 {
+      margin-top: 20px !important; }
+      .wrapperContainer .leftContent h3 span {
+        font-size: 2rem !important; }
+  .wrapperContainer .rightContent form {
+    width: 490px;
+    margin: 0 auto !important;
+    margin-bottom: 50px !important; }
+    .wrapperContainer .rightContent form .columnMale {
+      margin-left: 0px !important; }
+    .wrapperContainer .rightContent form .form-group .firstName {
+      margin-bottom: 15px; }
+    .wrapperContainer .rightContent form .form-group .firstName {
+      padding-right: 15px !important; }
+    .wrapperContainer .rightContent form .form-group .lastName {
+      padding-left: 15px !important; }
+  .wrapperContainer #footer ul {
+    right: -300px !important; }
+  .wrapperContainer #footer p {
+    top: 34px !important;
+    left: 43px; }
+
+  .loginWrapperForMobile .leftContent {
+    display: none; }
+  .loginWrapperForMobile .rightContent #logoForMobile {
+    display: block !important;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 0px; }
+  .loginWrapperForMobile .rightContent form#loginForm {
+    background-color: rgba(255, 255, 255, 0.6) !important;
+    margin-left: 62px !important;
+    padding: 20px 0px 80px 0px !important;
+    width: 520px !important;
+    background-image: none !important;
+    height: auto !important;
+    margin-left: 40px !important;
+    margin-top: 20px !important; }
+    .loginWrapperForMobile .rightContent form#loginForm #innerForm {
+      padding-top: 20px !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerUsername input {
+        width: 80% !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerPassword input {
+        width: 80% !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .lineLast {
+        max-width: 462px !important; } }
+@media only screen and (min-width: 561px) and (max-width: 601px) {
+  .wrapperContainer .leftContent {
+    max-width: 500px;
+    margin: 0 auto;
+    padding-left: 0px !important;
+    text-align: center; }
+    .wrapperContainer .leftContent h3 {
+      margin-top: 20px !important; }
+      .wrapperContainer .leftContent h3 span {
+        font-size: 2rem !important; }
+  .wrapperContainer .rightContent form {
+    width: 460px;
+    margin: 0 auto !important;
+    margin-bottom: 50px !important; }
+    .wrapperContainer .rightContent form .columnMale {
+      margin-left: 0px !important; }
+    .wrapperContainer .rightContent form .form-group .firstName {
+      margin-bottom: 15px; }
+    .wrapperContainer .rightContent form .form-group .firstName {
+      padding-right: 15px !important; }
+    .wrapperContainer .rightContent form .form-group .lastName {
+      padding-left: 15px !important; }
+  .wrapperContainer #footer ul {
+    right: -140px !important; }
+  .wrapperContainer #footer p {
+    top: 4px !important;
+    left: 150px; }
+
+  .loginWrapperForMobile .leftContent {
+    display: none; }
+  .loginWrapperForMobile .rightContent #logoForMobile {
+    display: block !important;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 0px; }
+  .loginWrapperForMobile .rightContent form#loginForm {
+    background-color: rgba(255, 255, 255, 0.6) !important;
+    margin-left: 62px !important;
+    padding: 20px 0px 80px 0px !important;
+    width: 480px !important;
+    background-image: none !important;
+    height: auto !important;
+    margin-left: 20px !important;
+    margin-top: 20px !important; }
+    .loginWrapperForMobile .rightContent form#loginForm #innerForm {
+      padding-top: 20px !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerUsername input {
+        width: 80% !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerPassword input {
+        width: 80% !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .lineLast {
+        max-width: 400px !important; } }
+@media only screen and (min-width: 521px) and (max-width: 560px) {
+  .wrapperContainer .leftContent {
+    max-width: 500px;
+    margin: 0 auto;
+    padding-left: 0px !important;
+    text-align: center; }
+    .wrapperContainer .leftContent h3 {
+      margin-top: 20px !important; }
+      .wrapperContainer .leftContent h3 span {
+        font-size: 2rem !important; }
+  .wrapperContainer .rightContent form {
+    width: 460px;
+    margin: 0 auto !important;
+    margin-bottom: 50px !important; }
+    .wrapperContainer .rightContent form .columnMale {
+      margin-left: 0px !important; }
+    .wrapperContainer .rightContent form .form-group .firstName {
+      margin-bottom: 15px; }
+    .wrapperContainer .rightContent form .form-group .firstName {
+      padding-right: 15px !important; }
+    .wrapperContainer .rightContent form .form-group .lastName {
+      padding-left: 15px !important; }
+  .wrapperContainer #footer ul {
+    right: -120px !important; }
+  .wrapperContainer #footer p {
+    top: 4px !important;
+    left: 130px; }
+
+  .loginWrapperForMobile .leftContent {
+    display: none; }
+  .loginWrapperForMobile .rightContent #logoForMobile {
+    display: block !important;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 0px; }
+  .loginWrapperForMobile .rightContent form#loginForm {
+    background-color: rgba(255, 255, 255, 0.6) !important;
+    margin-left: 62px !important;
+    padding: 20px 0px 80px 0px !important;
+    width: 400px !important;
+    background-image: none !important;
+    height: auto !important;
+    margin-left: 40px !important;
+    margin-top: 20px !important; }
+    .loginWrapperForMobile .rightContent form#loginForm #innerForm {
+      padding-top: 20px !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerUsername input {
+        width: 80% !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerPassword input {
+        width: 80% !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .lineLast {
+        max-width: 340px !important; } }
+@media only screen and (min-width: 480px) and (max-width: 520px) {
+  .wrapperContainer .leftContent {
+    max-width: 460px;
+    margin: 0 auto;
+    padding-left: 0px !important;
+    text-align: center; }
+    .wrapperContainer .leftContent h3 {
+      margin-top: 20px !important; }
+      .wrapperContainer .leftContent h3 span {
+        font-size: 2rem !important; }
+  .wrapperContainer .rightContent form {
+    width: 420px;
+    margin: 0 auto !important;
+    margin-bottom: 50px !important; }
+    .wrapperContainer .rightContent form .columnMale {
+      margin-left: 0px !important; }
+    .wrapperContainer .rightContent form .form-group .firstName {
+      margin-bottom: 15px; }
+    .wrapperContainer .rightContent form .form-group .firstName {
+      padding-right: 15px !important; }
+    .wrapperContainer .rightContent form .form-group .lastName {
+      padding-left: 15px !important; }
+  .wrapperContainer #footer ul {
+    right: -100px !important; }
+  .wrapperContainer #footer p {
+    top: 4px !important;
+    left: 110px; }
+
+  .loginWrapperForMobile .leftContent {
+    display: none; }
+  .loginWrapperForMobile .rightContent #logoForMobile {
+    display: block !important;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 0px; }
+  .loginWrapperForMobile .rightContent form#loginForm {
+    background-color: rgba(255, 255, 255, 0.6) !important;
+    margin-left: 62px !important;
+    padding: 20px 0px 80px 0px !important;
+    width: 400px !important;
+    background-image: none !important;
+    height: auto !important;
+    margin-left: 20px !important;
+    margin-top: 20px !important; }
+    .loginWrapperForMobile .rightContent form#loginForm #innerForm {
+      padding-top: 20px !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerUsername input {
+        width: 80% !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerPassword input {
+        width: 80% !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .lineLast {
+        max-width: 320px !important; } }
+@media only screen and (min-width: 441px) and (max-width: 479px) {
+  .wrapperContainer .leftContent {
+    max-width: 420px;
+    margin: 0 auto;
+    padding-left: 0px !important;
+    text-align: center; }
+    .wrapperContainer .leftContent h3 {
+      margin-top: 20px !important; }
+      .wrapperContainer .leftContent h3 span {
+        font-size: 2rem !important; }
+  .wrapperContainer .rightContent form {
+    width: 340px;
+    margin: 0 auto !important;
+    margin-bottom: 50px !important;
+    padding: 16px !important;
+    width: 360px !important; }
+    .wrapperContainer .rightContent form .columnMale {
+      margin-left: 0px !important; }
+    .wrapperContainer .rightContent form .form-group .firstName {
+      margin-bottom: 15px; }
+    .wrapperContainer .rightContent form .form-group .firstName {
+      padding-right: 15px !important; }
+    .wrapperContainer .rightContent form .form-group .lastName {
+      padding-left: 15px !important; }
+  .wrapperContainer #footer ul {
+    right: -80px !important; }
+  .wrapperContainer #footer p {
+    top: 4px !important;
+    left: 90px; }
+
+  .loginWrapperForMobile .leftContent {
+    display: none; }
+  .loginWrapperForMobile .rightContent #logoForMobile {
+    display: block !important;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 0px; }
+  .loginWrapperForMobile .rightContent form#loginForm {
+    background-color: rgba(255, 255, 255, 0.6) !important;
+    margin-left: 62px !important;
+    padding: 20px 0px 80px 0px !important;
+    width: 360px !important;
+    background-image: none !important;
+    height: auto !important;
+    margin-left: 20px !important;
+    margin-top: 20px !important; }
+    .loginWrapperForMobile .rightContent form#loginForm #innerForm {
+      padding-top: 20px !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerUsername input {
+        width: 80% !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerPassword input {
+        width: 80% !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .lineLast {
+        max-width: 300px !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerLoginForgot .loginButton button {
+        width: 120px !important; } }
+@media only screen and (min-width: 401px) and (max-width: 440px) {
+  .wrapperContainer .leftContent {
+    max-width: 400px;
+    margin: 0 auto;
+    padding-left: 0px !important;
+    text-align: center; }
+    .wrapperContainer .leftContent h3 {
+      margin-top: 20px !important; }
+      .wrapperContainer .leftContent h3 span {
+        font-size: 2rem !important; }
+  .wrapperContainer .rightContent form {
+    width: 340px;
+    margin: 0 auto !important;
+    margin-bottom: 50px !important;
+    padding: 16px !important;
+    width: 340px !important; }
+    .wrapperContainer .rightContent form .columnMale {
+      margin-left: 0px !important; }
+    .wrapperContainer .rightContent form .form-group .firstName {
+      margin-bottom: 15px; }
+    .wrapperContainer .rightContent form .form-group .firstName {
+      padding-right: 15px !important; }
+    .wrapperContainer .rightContent form .form-group .lastName {
+      padding-left: 15px !important; }
+  .wrapperContainer #footer ul {
+    right: -60px !important; }
+  .wrapperContainer #footer p {
+    top: 4px !important;
+    left: 70px; }
+
+  .loginWrapperForMobile .leftContent {
+    display: none; }
+  .loginWrapperForMobile .rightContent #logoForMobile {
+    display: block !important;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 0px; }
+  .loginWrapperForMobile .rightContent form#loginForm {
+    background-color: rgba(255, 255, 255, 0.6) !important;
+    margin-left: 62px !important;
+    padding: 20px 0px 80px 0px !important;
+    width: 340px !important;
+    background-image: none !important;
+    height: auto !important;
+    margin-left: 10px !important;
+    margin-top: 20px !important; }
+    .loginWrapperForMobile .rightContent form#loginForm #innerForm {
+      padding-top: 20px !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerUsername input {
+        width: 80% !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerPassword input {
+        width: 80% !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .lineLast {
+        max-width: 300px !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerLoginForgot .loginButton button {
+        width: 120px !important; } }
+@media only screen and (min-width: 360px) and (max-width: 400px) {
+  .wrapperContainer .leftContent {
+    max-width: 320px;
+    margin: 0 auto;
+    padding-left: 0px !important;
+    text-align: center; }
+    .wrapperContainer .leftContent h3 {
+      margin-top: 20px !important; }
+      .wrapperContainer .leftContent h3 span {
+        font-size: 2rem !important; }
+  .wrapperContainer .rightContent form {
+    width: 300px;
+    margin: 0 auto !important;
+    margin-bottom: 50px !important;
+    padding: 16px !important;
+    width: 300px !important; }
+    .wrapperContainer .rightContent form .columnMale {
+      margin-left: 0px !important; }
+    .wrapperContainer .rightContent form .form-group .firstName {
+      margin-bottom: 15px; }
+    .wrapperContainer .rightContent form .form-group .firstName {
+      padding-right: 15px !important; }
+    .wrapperContainer .rightContent form .form-group .lastName {
+      padding-left: 15px !important; }
+    .wrapperContainer .rightContent form h1 {
+      font-size: 30px !important; }
+  .wrapperContainer #footer ul {
+    right: -40px !important; }
+  .wrapperContainer #footer p {
+    top: 4px !important;
+    left: 50px; }
+
+  .loginWrapperForMobile .leftContent {
+    display: none; }
+  .loginWrapperForMobile .rightContent #logoForMobile {
+    display: block !important;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 0px; }
+  .loginWrapperForMobile .rightContent form#loginForm {
+    background-color: rgba(255, 255, 255, 0.6) !important;
+    margin-left: 62px !important;
+    padding: 20px 0px 80px 0px !important;
+    width: 310px !important;
+    background-image: none !important;
+    height: auto !important;
+    margin-left: 2px !important;
+    margin-top: 20px !important; }
+    .loginWrapperForMobile .rightContent form#loginForm #innerForm {
+      padding-top: 20px !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerUsername input {
+        width: 80% !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerPassword input {
+        width: 80% !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .lineLast {
+        max-width: 300px !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerLoginForgot .loginButton button {
+        width: 120px !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerSignupNow .youHaveAccount {
+        flex: 0 0 100% !important;
+        margin: 0 auto 0 46px !important;
+        max-width: 70% !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerSignupNow .signUpNow {
+        margin-left: 80px !important;
+        text-align: center; }
+        .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerSignupNow .signUpNow p {
+          width: 150px !important; } }
+@media only screen and (min-width: 301px) and (max-width: 359px) {
+  .wrapperContainer .leftContent {
+    max-width: 300px;
+    margin: 0 auto;
+    padding-left: 0px !important;
+    text-align: center; }
+    .wrapperContainer .leftContent h3 {
+      margin-top: 20px !important; }
+      .wrapperContainer .leftContent h3 span {
+        font-size: 2rem !important; }
+    .wrapperContainer .leftContent p {
+      font-size: 14px !important;
+      padding-left: 10px;
+      padding-right: 10px; }
+  .wrapperContainer .rightContent form {
+    width: 260px;
+    margin: 0 auto !important;
+    margin-bottom: 50px !important;
+    padding: 16px !important;
+    width: 260px !important; }
+    .wrapperContainer .rightContent form .columnMale {
+      margin-left: 0px !important; }
+    .wrapperContainer .rightContent form .form-group .firstName {
+      margin-bottom: 15px; }
+    .wrapperContainer .rightContent form h1 {
+      font-size: 28px !important; }
+    .wrapperContainer .rightContent form .form-group select.country {
+      width: 100% !important; }
+    .wrapperContainer .rightContent form .form-group .firstName {
+      padding-right: 15px !important; }
+    .wrapperContainer .rightContent form .form-group .lastName {
+      padding-left: 15px !important; }
+  .wrapperContainer #footer ul {
+    right: 0px !important; }
+  .wrapperContainer #footer p {
+    top: 4px !important;
+    left: 10px; }
+
+  .loginWrapperForMobile .leftContent {
+    display: none; }
+  .loginWrapperForMobile .rightContent #logoForMobile {
+    display: block !important;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 0px; }
+  .loginWrapperForMobile .rightContent form#loginForm {
+    background-color: rgba(255, 255, 255, 0.6) !important;
+    margin-left: 62px !important;
+    padding: 20px 0px 80px 0px !important;
+    width: 240px !important;
+    background-image: none !important;
+    height: auto !important;
+    margin-left: 0px !important;
+    margin-top: 20px !important; }
+    .loginWrapperForMobile .rightContent form#loginForm #innerForm {
+      padding-top: 20px !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerUsername input {
+        width: 80% !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerPassword input {
+        width: 80% !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .lineLast {
+        max-width: 200px !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerLoginForgot .loginButton {
+        flex: 0 0 70% !important;
+        margin: 0 auto 0 50px !important;
+        max-width: 70% !important; }
+        .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerLoginForgot .loginButton button {
+          width: 120px !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerLoginForgot .forgotPassword {
+        margin-left: 50px !important; }
+        .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerLoginForgot .forgotPassword p {
+          width: 150px !important; } }
+
+/*# sourceMappingURL=responsive.css.map */
