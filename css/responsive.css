@@ -1,3 +1,38 @@
+/* Large screens ----------- */
+@media only screen and (min-width: 1951px) {
+  form#loginForm {
+    min-height: 1200px !important;
+    background-position: 0 0 !important; }
+    form#loginForm #innerForm {
+      padding-top: 240px !important; }
+      form#loginForm #innerForm .lineLast {
+        max-width: 500px !important; } }
+@media only screen and (min-width: 1801px) and (max-width: 1950px) {
+  form#loginForm {
+    height: 940px !important;
+    background-position: 0 0 !important; }
+    form#loginForm #innerForm {
+      padding-top: 200px !important; }
+      form#loginForm #innerForm .lineLast {
+        max-width: 460px !important; } }
+@media only screen and (min-width: 1601px) and (max-width: 1800px) {
+  form#loginForm {
+    height: 840px !important;
+    background-position: 0 0 !important; }
+    form#loginForm #innerForm {
+      padding-top: 160px !important; }
+      form#loginForm #innerForm .lineLast {
+        max-width: 460px !important; } }
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1501px) and (max-width: 1600px) {
+  form#loginForm {
+    height: 740px !important;
+    background-position: 0 0 !important; }
+    form#loginForm #innerForm .lineLast {
+      max-width: 400px !important; } }
+@media only screen and (min-width: 1371px) and (max-width: 1500px) {
+  form#loginForm {
+    height: 700px !important; } }
 @media only screen and (min-width: 1225px) and (max-width: 1270px) {
   form {
     margin-left: 0px !important; }
@@ -762,7 +797,7 @@
         text-align: center; }
         .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerSignupNow .signUpNow p {
           width: 150px !important; } }
-@media only screen and (min-width: 301px) and (max-width: 359px) {
+@media only screen and (min-width: 330px) and (max-width: 359px) {
   .wrapperContainer .leftContent {
     max-width: 300px;
     margin: 0 auto;
@@ -802,37 +837,161 @@
 
   .loginWrapperForMobile .leftContent {
     display: none; }
-  .loginWrapperForMobile .rightContent #logoForMobile {
-    display: block !important;
-    text-align: center;
+  .loginWrapperForMobile .rightContent {
+    padding-left: 0px !important;
+    padding-right: 0px !important; }
+    .loginWrapperForMobile .rightContent #logoForMobile {
+      display: block !important;
+      text-align: center;
+      margin: 0 auto;
+      margin-left: 0px; }
+    .loginWrapperForMobile .rightContent form#loginForm {
+      background-color: rgba(255, 255, 255, 0.6) !important;
+      padding: 20px 0px 80px 0px !important;
+      width: 250px !important;
+      background-image: none !important;
+      height: auto !important;
+      margin-top: 20px !important;
+      margin: 0 auto !important;
+      margin-bottom: 40px !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm {
+        padding-top: 20px !important; }
+        .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerUsername input {
+          width: 80% !important; }
+        .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerPassword input {
+          width: 80% !important; }
+        .loginWrapperForMobile .rightContent form#loginForm #innerForm .lineLast {
+          max-width: 200px !important; }
+        .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerLoginForgot .loginButton {
+          flex: 0 0 80% !important;
+          margin: 0 auto 0 50px !important;
+          max-width: 80% !important;
+          margin-left: 70px !important; }
+          .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerLoginForgot .loginButton button {
+            width: 120px !important; }
+        .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerLoginForgot .forgotPassword {
+          margin-left: 70px !important; }
+          .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerLoginForgot .forgotPassword p {
+            width: 150px !important; }
+        .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerline .or {
+          margin-left: -2px !important; }
+        .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerSocialLogin .facebookWrapper {
+          margin: 0 auto 20px 50px !important;
+          max-width: 100% !important;
+          text-align: center !important; }
+        .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerSocialLogin .googleWrapper {
+          flex: 0 0 100% !important;
+          margin: 0 auto 0 4px !important;
+          max-width: 100% !important;
+          text-align: center !important; }
+        .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerSignupNow .youHaveAccount {
+          flex: 0 0 100% !important;
+          margin: 0 auto !important;
+          max-width: 100% !important; }
+          .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerSignupNow .youHaveAccount p {
+            margin-left: 40px !important; }
+        .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerSignupNow .signUpNow {
+          flex: 0 0 100% !important;
+          margin: 0 auto !important;
+          max-width: 100% !important; }
+          .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerSignupNow .signUpNow p {
+            margin-left: 70px !important; } }
+@media only screen and (min-width: 301px) and (max-width: 329px) {
+  .wrapperContainer .leftContent {
+    max-width: 300px;
     margin: 0 auto;
-    margin-left: 0px; }
-  .loginWrapperForMobile .rightContent form#loginForm {
-    background-color: rgba(255, 255, 255, 0.6) !important;
-    margin-left: 62px !important;
-    padding: 20px 0px 80px 0px !important;
-    width: 240px !important;
-    background-image: none !important;
-    height: auto !important;
-    margin-left: 0px !important;
-    margin-top: 20px !important; }
-    .loginWrapperForMobile .rightContent form#loginForm #innerForm {
-      padding-top: 20px !important; }
-      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerUsername input {
-        width: 80% !important; }
-      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerPassword input {
-        width: 80% !important; }
-      .loginWrapperForMobile .rightContent form#loginForm #innerForm .lineLast {
-        max-width: 200px !important; }
-      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerLoginForgot .loginButton {
-        flex: 0 0 70% !important;
-        margin: 0 auto 0 50px !important;
-        max-width: 70% !important; }
-        .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerLoginForgot .loginButton button {
-          width: 120px !important; }
-      .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerLoginForgot .forgotPassword {
-        margin-left: 50px !important; }
-        .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerLoginForgot .forgotPassword p {
-          width: 150px !important; } }
+    padding-left: 0px !important;
+    text-align: center; }
+    .wrapperContainer .leftContent h3 {
+      margin-top: 20px !important; }
+      .wrapperContainer .leftContent h3 span {
+        font-size: 2rem !important; }
+    .wrapperContainer .leftContent p {
+      font-size: 14px !important;
+      padding-left: 10px;
+      padding-right: 10px; }
+  .wrapperContainer .rightContent form {
+    width: 260px;
+    margin: 0 auto !important;
+    margin-bottom: 50px !important;
+    padding: 16px !important;
+    width: 260px !important; }
+    .wrapperContainer .rightContent form .columnMale {
+      margin-left: 0px !important; }
+    .wrapperContainer .rightContent form .form-group .firstName {
+      margin-bottom: 15px; }
+    .wrapperContainer .rightContent form h1 {
+      font-size: 28px !important; }
+    .wrapperContainer .rightContent form .form-group select.country {
+      width: 100% !important; }
+    .wrapperContainer .rightContent form .form-group .firstName {
+      padding-right: 15px !important; }
+    .wrapperContainer .rightContent form .form-group .lastName {
+      padding-left: 15px !important; }
+  .wrapperContainer #footer ul {
+    right: 0px !important; }
+  .wrapperContainer #footer p {
+    top: 4px !important;
+    left: 10px; }
+
+  .loginWrapperForMobile .leftContent {
+    display: none; }
+  .loginWrapperForMobile .rightContent {
+    padding-left: 0px !important;
+    padding-right: 0px !important; }
+    .loginWrapperForMobile .rightContent #logoForMobile {
+      display: block !important;
+      text-align: center;
+      margin: 0 auto;
+      margin-left: 0px; }
+    .loginWrapperForMobile .rightContent form#loginForm {
+      margin-right: 0px !important;
+      background-color: rgba(255, 255, 255, 0.6) !important;
+      padding: 20px 0px 80px 0px !important;
+      width: 230px !important;
+      background-image: none !important;
+      height: auto !important;
+      margin: 0 auto !important;
+      margin-top: 20px !important;
+      margin-bottom: 40px !important; }
+      .loginWrapperForMobile .rightContent form#loginForm #innerForm {
+        padding-top: 20px !important; }
+        .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerUsername input {
+          width: 80% !important; }
+        .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerPassword input {
+          width: 80% !important; }
+        .loginWrapperForMobile .rightContent form#loginForm #innerForm .lineLast {
+          max-width: 200px !important; }
+        .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerLoginForgot .loginButton {
+          flex: 0 0 70% !important;
+          margin: 0 auto 0 50px !important;
+          max-width: 70% !important; }
+          .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerLoginForgot .loginButton button {
+            width: 120px !important; }
+        .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerLoginForgot .forgotPassword {
+          margin-left: 50px !important; }
+          .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerLoginForgot .forgotPassword p {
+            width: 150px !important; }
+        .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerline .or {
+          margin-left: -4px !important; }
+        .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerSocialLogin .facebookWrapper {
+          margin: 0 auto 20px 46px !important;
+          max-width: 100% !important;
+          text-align: center !important; }
+        .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerSocialLogin .googleWrapper {
+          flex: 0 0 100% !important;
+          margin: 0 auto 0 10px !important;
+          max-width: 100% !important;
+          text-align: center !important; }
+        .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerSignupNow .youHaveAccount {
+          flex: 0 0 100% !important;
+          margin: 0 auto !important;
+          max-width: 100% !important; }
+        .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerSignupNow .signUpNow {
+          flex: 0 0 100% !important;
+          margin: 0 auto !important;
+          max-width: 100% !important; }
+          .loginWrapperForMobile .rightContent form#loginForm #innerForm .innerSignupNow .signUpNow p {
+            margin-left: 50px !important; } }
 
 /*# sourceMappingURL=responsive.css.map */

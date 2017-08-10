@@ -45,10 +45,94 @@
 	}
 
 }
+
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1951px) {
+	body{
+		// background:green !important;
+	}
+	form#loginForm {
+	    // height: 1000px !important;
+	    min-height: 1200px !important;
+	    background-position: 0 0 !important;
+	    #innerForm{
+	    	padding-top: 240px !important;
+	    	.lineLast{
+	    		max-width: 500px !important;
+	    	}
+	    } 
+	}
+}
+@media only screen  and (min-width : 1801px) and (max-width : 1950px){
+	body{
+		// background:red !important;
+	}
+	form#loginForm {
+	    height: 940px !important;
+	    background-position: 0 0 !important;
+	    #innerForm{
+	    	padding-top: 200px !important;
+	    	.lineLast{
+	    		max-width: 460px !important;
+	    	}
+	    } 
+	}
+}
+@media only screen  and (min-width : 1601px) and (max-width : 1800px) {
+	body{
+		// background:green !important;
+	}
+	form#loginForm {
+	    height: 840px !important;
+	    background-position: 0 0 !important;
+	    #innerForm{
+	    	padding-top: 160px !important;
+	    	.lineLast{
+	    		max-width: 460px !important;
+	    	}
+	    } 
+	}
+}
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1501px) and (max-width: 1600px){
+	body{
+		// background:red !important;
+	}
+	form#loginForm {
+	    height: 740px !important;
+	    background-position: 0 0 !important;
+	    #innerForm{
+	    	.lineLast{
+	    		max-width: 400px !important;
+	    	}
+	    } 
+	}
+}
+@media only screen  and (min-width : 1371px) and (max-width: 1500px){
+	body{
+		// background:orange !important;
+	}
+	form#loginForm {
+	    height: 700px !important;
+	}
+}
+
+@media only screen and (min-width: 1271px) and (max-width: 1370px){
+	body{
+		// background:red !important;
+	}
+}
 @media only screen and (min-width: 1225px) and (max-width: 1270px){
 	form{
 		@include formMarginLeft(0px !important);
 
+	}
+	.leftContent{
+		h3{
+			// color:red !important;
+		}
 	}
 	
 	ul{
@@ -70,6 +154,9 @@
 		.innerSignupNow{
 			margin: -25px auto 0 !important;
 		}
+	}
+	body{
+		// background:green;
 	}
 }
 @media only screen and (min-width: 1151px) and (max-width: 1224px){
@@ -96,6 +183,9 @@
 		.innerSignupNow{
 			margin: -25px auto 0 !important;
 		}
+	}
+	body{
+		// background:orange !important;
 	}
 }
 @media only screen and (min-width: 1101px) and (max-width: 1150px){
@@ -1194,7 +1284,7 @@
 		}
 	} 
 }
-@media only screen and (min-width: 301px) and (max-width: 359px){
+@media only screen and (min-width: 330px) and (max-width: 359px){
 	.wrapperContainer{
 		.leftContent{
 			@include leftContentProperty(300px);
@@ -1244,6 +1334,8 @@
 			display: none;
 		}	
 		.rightContent{
+			padding-left:0px !important;
+			padding-right:0px !important;
 			#logoForMobile{
 				display: block !important;
 				text-align: center;
@@ -1252,13 +1344,159 @@
 			}
 			form#loginForm{
 				background-color: rgba(255, 255, 255, 0.6) !important;
-			    margin-left: 62px !important;
+			    // margin-left: 4px !important;
 			    padding: 20px 0px 80px 0px !important;
-			    width: 240px !important;
+			    width: 250px !important;
 			    background-image: none !important;
 			    height: auto !important;
-			    margin-left:0px !important;
 			    margin-top: 20px !important;
+			    margin:0 auto !important;
+			    margin-bottom: 40px !important;
+			    #innerForm
+			    {
+			    	padding-top: 20px !important;
+			    	.innerUsername{
+						input{
+							width: 80% !important;
+						}
+					}
+					.innerPassword{
+						input{
+							width: 80% !important;
+						}
+					}
+					.lineLast{
+						max-width: 200px !important;
+					}
+					.innerLoginForgot{
+						.loginButton{
+							button{
+								width: 120px !important;
+							}
+
+							flex: 0 0 80% !important;
+						    margin: 0 auto 0 50px !important;
+						    max-width: 80% !important;
+						    margin-left: 70px !important;
+						}
+						.forgotPassword{
+							margin-left: 70px !important;
+							p{
+								width: 150px !important;
+							}
+							
+						}
+					}
+					.innerline{
+						.or{
+							// color:green !important;
+							margin-left:-2px !important;
+						}
+					}
+					.innerSocialLogin{
+						.facebookWrapper{
+							margin: 0 auto 20px 50px !important;
+						    max-width: 100% !important;
+						    text-align: center !important;
+						}
+						.googleWrapper{
+							flex: 0 0 100% !important;
+						    margin: 0 auto 0 4px !important;
+						    max-width: 100% !important;
+						    text-align: center !important
+						}
+					}
+					.innerSignupNow{
+						.youHaveAccount {
+						    flex: 0 0 100% !important;
+						    margin: 0 auto !important;
+						    max-width: 100% !important;
+						    p{
+						    	margin-left: 40px !important;
+						    }
+						}
+						.signUpNow{
+							flex: 0 0 100% !important;
+						    margin: 0 auto !important;
+						    max-width: 100% !important;
+						    p{
+						    	margin-left: 70px !important;
+						    }
+						}
+					}
+			    }
+			}
+		}
+	} 
+}
+@media only screen and (min-width: 301px) and (max-width: 329px){
+	.wrapperContainer{
+		.leftContent{
+			@include leftContentProperty(300px);
+			h3{
+				margin-top: 20px !important;
+				span{
+					font-size: 2rem !important;
+				}
+			}
+			p{
+				font-size: 14px !important;
+				padding-left:10px;
+				padding-right:10px;
+			}
+		}
+		.rightContent{
+			form{
+				@include rightContentForm(260px);
+				.columnMale{
+					margin-left: 0px !important;
+				}
+				@include formGroupDefine;
+				@include rightFormPaddingWidth(16px !important,260px !important);
+				h1{
+					font-size:28px !important;
+				}
+				.form-group{
+					select.country{
+						width: 100% !important;
+					}
+					@include firstandlastName;
+				}
+			}
+		}
+		#footer{
+			ul{
+				@include socialRight(0px !important);
+			}
+			p{
+				
+				@include footerP(4px !important,10px);
+			}
+		}
+	}
+	.loginWrapperForMobile{
+		.leftContent{
+			display: none;
+		}	
+		.rightContent{
+			padding-left: 0px !important;
+			padding-right:0px !important;
+			#logoForMobile{
+				display: block !important;
+				text-align: center;
+				margin:0 auto;
+				margin-left:0px;
+			}
+			form#loginForm{
+				margin-right:0px !important;
+				background-color: rgba(255, 255, 255, 0.6) !important;
+			    padding: 20px 0px 80px 0px !important;
+			    width: 230px !important;
+			    background-image: none !important;
+			    height: auto !important;
+			    margin:0 auto !important;
+			    margin-top: 20px !important;
+			    margin-bottom: 40px !important;
 			    #innerForm
 			    {
 			    	padding-top: 20px !important;
@@ -1291,6 +1529,40 @@
 								width: 150px !important;
 							}
 							
+						}
+					}
+					.innerline{
+						.or{
+							// color:red !important;
+							margin-left:-4px !important;
+						}
+					}
+					.innerSocialLogin{
+						.facebookWrapper{
+							margin: 0 auto 20px 46px !important;
+						    max-width: 100% !important;
+						    text-align: center !important;
+						}
+						.googleWrapper{
+							flex: 0 0 100% !important;
+						    margin: 0 auto 0 10px !important;
+						    max-width: 100% !important;
+						    text-align: center !important
+						}
+					}
+					.innerSignupNow{
+						.youHaveAccount {
+						    flex: 0 0 100% !important;
+						    margin: 0 auto !important;
+						    max-width: 100% !important;
+						}
+						.signUpNow{
+							flex: 0 0 100% !important;
+						    margin: 0 auto !important;
+						    max-width: 100% !important;
+						    p{
+						    	margin-left: 50px !important;
+						    }
 						}
 					}
 			    }

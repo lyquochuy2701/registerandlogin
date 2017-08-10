@@ -2,15 +2,20 @@
   font-family: 'HelveticaNeue';
   src: url("../fonts/HelveticaNeue.eot");
   src: url("../fonts/HelveticaNeue.eot") format("embedded-opentype"), url("../fonts/HelveticaNeue.woff2") format("woff2"), url("../fonts/HelveticaNeue.woff") format("woff"), url("../fonts/HelveticaNeue.ttf") format("truetype"), url("../fonts/HelveticaNeue.svg#HelveticaNeue") format("svg"); }
+html {
+  height: 100%; }
+
 body {
-  font-family: "HelveticaNeue"; }
+  font-family: "HelveticaNeue";
+  height: auto;
+  background-image: url("../images/backgroundMain.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
 
 .wrapperContainer {
-  background: url("../images/backgroundMain.png") no-repeat;
-  font-family: 'HelveticaNeue';
-  height: auto;
-  min-height: 640px;
-  background-size: cover; }
+  font-family: 'HelveticaNeue'; }
   .wrapperContainer .mainContent {
     padding-top: 20px; }
     .wrapperContainer .mainContent .leftContent {

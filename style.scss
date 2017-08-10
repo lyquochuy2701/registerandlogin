@@ -34,15 +34,25 @@
     padding-left: 44px;
     width: 51%;
 }
+html{
+	height:100%;
+}
 body{
 	font-family: "HelveticaNeue";
+	height:auto;
+	// background: url("../images/backgroundMain.png") center center cover no-repeat fixed;
+	background-image: url("../images/backgroundMain.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
 .wrapperContainer{
-	background:url("../images/backgroundMain.png") no-repeat;
+	// background:url("../images/backgroundMain.png") no-repeat;
 	font-family: 'HelveticaNeue';
-	height:auto;
-	min-height:640px;
-	background-size:cover;
+	// height:100%;
+	// min-height:680px;
+	// background-size:cover;
 	.mainContent
 	{
 		padding-top: 20px;
